@@ -16,12 +16,13 @@
 まず、Windows で gsudo が入っていない場合は [インストール](https://gerardog.github.io/gsudo/docs/install) しといてください。また、デフォルトの起動構成で Minecraft をプレイしたことがあることを想定しています。
 
 1. このリポジトリをクローンします。
-2. `.minecraft` への `/profiles/vanilla` という名前のシンボリックリンクを作成します。具体的には、以下のコマンドを実行します。
+2. `/profiles/mkgame.bat` および `/profiles/mkgame.sh` の、`mcdir` の初期化をこのディレクトリの場所に書き換えます。
+3. `.minecraft` への `/profiles/vanilla` という名前のシンボリックリンクを作成します。具体的には、以下のコマンドを実行します。
     - **Windows: `gsudo mklink /d .\profiles\vanilla %APPDATA%\.minecraft`**
     - **macOS: `ln -s '~/Library/Application Support/minecraft' './profiles/vanilla'`**
     - **Linux: `ln -s '~/.minecraft' './profiles/vanilla'`**
-3. `.minecraft/` 以下の `saves`, `screenshots`, `resourcepacks`, `shaderpacks` ディレクトリの中身をこのリポジトリの `worlds`, `screenshots`, `resourcepacks`, `shaderpacks` ディレクトリに移動し、元のディレクトリを削除します。
-4. 移したディレクトリへのシンボリックリンクを作成します。具体的には、以下のコマンドを実行します。
+4. `.minecraft/` 以下の `saves`, `screenshots`, `resourcepacks`, `shaderpacks` ディレクトリの中身をこのリポジトリの `worlds`, `screenshots`, `resourcepacks`, `shaderpacks` ディレクトリに移動し、元のディレクトリを削除します。
+5. 移したディレクトリへのシンボリックリンクを作成します。具体的には、以下のコマンドを実行します。
     - **Windows:**
         ```cmd
         gsudo cache on

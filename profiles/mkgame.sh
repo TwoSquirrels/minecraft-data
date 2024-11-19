@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# これをリポジトリのパスに書き換える！
 mcdir="$HOME/minecraft"
 
 target="$1"
