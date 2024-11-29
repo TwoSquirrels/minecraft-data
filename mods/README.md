@@ -73,7 +73,10 @@ F3 デバッグ画面を見やすくするための MOD です。v1.16 以降に
 
 ### **[Zoomify](https://modrinth.com/mod/zoomify)** (Fabric 前提)
 
-ズーム機能を追加するための MOD です。v1.18 以降に対応しています。
+ズーム機能を追加するための MOD です。v1.18 以降に対応しています。ただし、以下の MOD に依存します。
+
+- **[YetAnotherConfigLib (YACL)](https://modrinth.com/mod/yacl)**
+- **[Fabric Language Kotlin](https://modrinth.com/mod/fabric-language-kotlin)**
 
 ### **[Sodium Dynamic Lights](https://modrinth.com/mod/sodium-dynamic-lights)** (Fabric 前提 / Forge 前提)
 
