@@ -1,6 +1,6 @@
 @echo off
 
-@rem これをリポジトリのパスに書き換える！
+@rem これをリポジトリのパスに書き換える.
 set mcdir=%USERPROFILE%\minecraft
 
 set target=%1

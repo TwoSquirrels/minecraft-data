@@ -35,7 +35,7 @@ Minecraft のグラフィックスを最適化するための MOD です。v1.7 
 
 多くの Fabric MOD が依存する API です。v1.14 以降に対応しています。
 
-### **[Sodium](https://www.curseforge.com/minecraft/mc-mods/sodium) (Fabric 前提)
+### **[Sodium](https://www.curseforge.com/minecraft/mc-mods/sodium)** (Fabric 前提)
 
 Minecraft のグラフィックスを最適化するための MOD です。v1.16 以降に対応しています。
 
